@@ -11,9 +11,3 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
-## Custom notifications
-Notify:
-  Webhooks:
-    # A list of hook hashes, containing the url file
-    - url: https://dslzuha.webhook.office.com/webhookb2/1f31151d-e343-4c13-b0c2-cdf99319b092@202b3f81-76fa-4f2d-bf49-9d9bea15fa6e/CircleCI/e003fc97c83c4e6b81a49b2804decbfe/f17bfd43-6c0a-43cc-b80e-bfa2dad3e95a
-    
